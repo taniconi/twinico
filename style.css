@@ -1,0 +1,87 @@
+/*index about共通*/
+/*背景*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(253, 228, 228);
+}
+
+/*ヘッダー*/
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.nav-container {
+    display: flex;
+    gap: 10px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.title:hover {
+    opacity: 0.7;
+}
+.navi {
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navi:hover {
+    opacity: 0.7;
+}
+
+/*内容*/
+main {
+    text-align: center;
+}
+.header-image {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 32px;
+    margin-top: 40px;
+}
+.avatar {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: -75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social img {
+    margin: 20px;
+    width: 35px;
+    transition: transform 0.3s;
+}
+.social img:hover {
+    transform:  scale(1.2);
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #888;
+    padding-bottom: 50px;
+}
+
+/*アバターiframe*/
+.viewer iframe{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 600px;
+    border: none;
+    padding-top: 5%;
+}
