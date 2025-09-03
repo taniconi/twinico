@@ -1,2 +1,2 @@
-「twinico.vrm」をimages直下に保存してください
+「twinico.glb」をimages直下に保存してください
 本リポジトリでは、「ニコニ立体ちゃん (VRM)」が保存されています
